@@ -6,9 +6,7 @@
 package proyectoconversiones;
 
 //import java.util.Iterator;
-import java.lang.Iterable;
-import java.util.NoSuchElementException;
-import java.lang.IndexOutOfBoundsException;
+import java.lang.*;
 import java.util.*;
 
 /**
@@ -72,17 +70,17 @@ public class ProyectoConversiones {
         
         //Collections linked
         
-        for (int i = 0; i<=10; i++)
-        {
+        
              // Create the link list.
-            LinkedList<String> object = new LinkedList<String>();
+            /*LinkedList<String> object = new LinkedList<String>();
 
+            for (int i = 0; i<=10; i++)
+            {
             // Adding elements to the linked list
             object.add(String.valueOf(i));
-
+            }
             System.out.println("Linked list : " + object);
- 
-        }
+                */
     }
     
 }
