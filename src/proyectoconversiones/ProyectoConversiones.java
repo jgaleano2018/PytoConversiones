@@ -6,8 +6,14 @@
 package proyectoconversiones;
 
 //import java.util.Iterator;
-import java.lang.*;
-import java.util.*;
+//import java.lang.*;
+//import java.util.*;
+
+
+import java.util.Iterator;
+import java.lang.Iterable;
+import java.util.NoSuchElementException;
+import java.lang.IndexOutOfBoundsException;
 
 /**
  *
