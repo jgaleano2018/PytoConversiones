@@ -55,6 +55,15 @@ public class ProyectoConversiones {
         
         listaGeneric.listar();
 
+        //Branch punto 3
+               
+        NodoGeneric NodoG = new NodoGeneric();
+        MyIterable myIterable = new MyIterable(NodoG);        
+        
+        for (Object s: myIterable){
+            System.out.println(s);
+        }
+        
         
     }
     
