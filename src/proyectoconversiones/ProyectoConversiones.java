@@ -43,50 +43,7 @@ public class ProyectoConversiones {
         lista.listar();
         
         
-        //Branch
-        //Convierto la lista simple "ListaSimpleNumeros" en una Generic List "ListaGeneric":
         
-        ListaGeneric listaGeneric = new ListaGeneric();
-        
-        for (int i = 0; i<=10; i++)
-        {
-            listaGeneric.agregarAlInicio(String.valueOf(i));            
-            //String.valueOf(i);
-        }
-        
-        listaGeneric.listar();
-        
-        
-        //Branch
-        
-        //MyIterator<String> myIterator = new MyIterator<String>();
-        
-        /*for(String element : myIterator)
-        {
-            System.out.println(element);
-        }*/
-        
-        NodoGeneric NodoG = new NodoGeneric();
-        MyIterable myIterable = new MyIterable(NodoG);
-        
-        
-        for (Object s: myIterable){
-            System.out.println(s);
-        }
-        
-        //Collections linked
-        
-        
-             // Create the link list.
-            /*LinkedList<String> object = new LinkedList<String>();
-
-            for (int i = 0; i<=10; i++)
-            {
-            // Adding elements to the linked list
-            object.add(String.valueOf(i));
-            }
-            System.out.println("Linked list : " + object);
-                */
     }
     
 }
