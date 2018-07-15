@@ -7,10 +7,8 @@ package proyectoconversiones;
 
 //import java.util.Iterator;
 //import java.lang.*;
-//import java.util.*;
-
-
-import java.util.Iterator;
+import java.util.*;
+//import java.util.Iterator;
 import java.lang.Iterable;
 import java.util.NoSuchElementException;
 import java.lang.IndexOutOfBoundsException;
@@ -50,7 +48,6 @@ public class ProyectoConversiones {
         for (int i = 0; i<=10; i++)
         {
             listaGeneric.agregarAlInicio(String.valueOf(i));            
-            //String.valueOf(i);
         }
         
         listaGeneric.listar();
@@ -63,8 +60,19 @@ public class ProyectoConversiones {
         for (Object s: myIterable){
             System.out.println(s);
         }
+
+        //Branch punto 4
         
-        
+         // Create the link list.
+        LinkedList<String> object = new LinkedList<String>();
+
+        for (int i = 0; i<=10; i++)
+        {
+        // Adding elements to the linked list
+        object.add(String.valueOf(i));
+        }
+        System.out.println("Linked list : " + object);
+                
     }
     
 }
