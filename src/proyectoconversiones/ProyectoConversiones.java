@@ -42,7 +42,19 @@ public class ProyectoConversiones {
         
         lista.listar();
         
+        //Branch punto 2
+        //Convierto la lista simple "ListaSimpleNumeros" en una Generic List "ListaGeneric":
         
+        ListaGeneric listaGeneric = new ListaGeneric();
+        
+        for (int i = 0; i<=10; i++)
+        {
+            listaGeneric.agregarAlInicio(String.valueOf(i));            
+            //String.valueOf(i);
+        }
+        
+        listaGeneric.listar();
+
         
     }
     
